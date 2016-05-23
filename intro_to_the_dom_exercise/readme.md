@@ -1,11 +1,7 @@
 ## Introduction to the DOM Exercise
 
-1. Start with HTML
-- target 
-- create elements
-- 
-1. Change background color
-2. Change color of divs
-3. Button to move divs
-4. setInterval to move div across the page (like a racecar)
-5. 
+- replace the text "Change me" with "Hello World!"
+
+- when a user hovers over one of the colored boxes change the text to display the color that is being hovered over
+
+- create a racing game with the two cars. When the race button is pressed, the two cars should move across the screen until one of them is at the end. When the first block reaches the end - you should alert "winner!" As a bonus, turn this into a fun racing game!

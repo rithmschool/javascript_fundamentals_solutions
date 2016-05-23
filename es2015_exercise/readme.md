@@ -1,6 +1,22 @@
 ## ES2015 Exercise
 
-Convert the following es5 code into es2015 code:
+Convert the following es5 code blocks into es2015 code:
+
+```javascript
+var person = {
+    fullName: "Harry Potter",
+    sayHi: function(){
+        setTimeout(function(){
+            console.log("Your name is " + this.fullName)
+        }.bind(this),1000)
+    }
+}
+```
+
+```javascript
+var name = "Josie"
+console.log("When " + name + " comes home, so good")
+```
 
 ```javascript
 var DO_NOT_CHANGE = 42;
@@ -37,5 +53,21 @@ function add(a,b){
         b = b || 10    
     }
     return a+b
+}
+```
+
+```javascript
+function Person(firstName, lastName, favoriteColor){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.favoriteColor = favoriteColor;
+}
+
+Person.prototype.fullName = function(){
+    return this.firstName + " " + this.lastName;
+}
+
+Person.isPerson = function(person){
+    return person.constructor === Person;
 }
 ```

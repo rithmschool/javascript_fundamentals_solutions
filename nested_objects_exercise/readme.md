@@ -17,11 +17,11 @@ var nestedData = {
 }
 ```
 
-1. console.log all of the numbers in the `primeNumbers` array
-2. console.log all of the even fibonnaci numbers
-3. console.log the value "second" inside the order array
-4. invoke the `addSnack` function and add snack of "chocolate"
-5. What does the word `this` refer to inside the `addSnack` function?
+- console.log all of the numbers in the `primeNumbers` array
+- console.log all of the even fibonnaci numbers
+- console.log the value "second" inside the order array
+- invoke the `addSnack` function and add snack of "chocolate"
+- What does the word `this` refer to inside the `addSnack` function?
 
 ```javascript
 var nestedObject = {
@@ -49,6 +49,21 @@ var nestedObject = {
 }
 ```
 
-1. Write a function to add a speaker (must be )
-1. Write a function `addLanguage` 
-1. Write a function `addCountry` 
+- Write a function to add a speaker to the array of speakers in the nested
+- The speaker you add must be an object.
+
+- Write a function `addLanguage` that adds a language to the languages object. The language object you add should have a key with the name of the language and the value of another object with a key of "hello" and a value of however you spell "hello" in the language you add.
+
+- Write a function `addCountry` that adds a country to the countries object. The country you add should be an object with the key as name of the country and the value as an object with the keys of "capital" and "population" and their respective values
+
+- Write a function called rotate which takes an array 
+
+```javascript
+rotate([1,2,3], 2) // [2,3,1]
+```
+
+- Rotate a two dimensional array clockwise
+
+```javascript
+rotateClockwise([[1,2,3], [4,5,6], [7,8,9]],2) // [[8,9,1], [2,3,4], [5,6,7]]
+```

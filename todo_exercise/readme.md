@@ -8,3 +8,7 @@ As a user, you should be able to
 - remove a todo
 
 Make sure your application is styled - you can use bootstrap or your own css or both!
+
+Part 2:
+
+Store your todos using localStorage! 

@@ -1,10 +1,5 @@
-## Iterators Exercise
+// DO NOT DELETE THIS
 
-### Part I 
-
-Use the following object for this set of questions:
-
-```javascript
 var users = [
 {
     username: "larry",
@@ -67,20 +62,3 @@ var users = [
     }
 }
 ]
-```
-
-1. Write a function called `printEmails` which console.log's each emails for the users.
-2. Write a function called `printHobbies` which console.log's each hobby for each user.
-3. Write a function called `longestFavoriteLanguage` which console.logs the longest language in each of the user's `favorite_language` array.
-4. Write a function called `findHometownByState` which returns the first user which has a 
-5. Write a function called `formatYears` which returns an array of objects with the username as the key and the years experience in days.
-6. Write a function called `allLanguages` which returns an array of all of the **unique** values 
-7. Write a function called `hasFavoriteEditor` which returns a boolean if any of the users have 
-
-### Part II
-
-1. Write a function called `vowelCount` that accepts a string and returns an object
-2. Write a function called `removeVowels` that accepts a string and returns an array of each character that is not a vowel. 
-
-
-

@@ -56,11 +56,13 @@ var nestedObject = {
 
 - Write a function `addCountry` that adds a country to the countries object. The country you add should be an object with the key as name of the country and the value as an object with the keys of "capital" and "population" and their respective values
 
-- Write a function called rotate which takes an array 
+- Write a function called rotate which takes an array and a number and moves each element however many spaces the number is to the right
 
 ```javascript
 rotate([1,2,3], 2) // [2,3,1]
 ```
+
+**BONUS**
 
 - Rotate a two dimensional array clockwise
 

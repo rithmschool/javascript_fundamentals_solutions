@@ -27,7 +27,7 @@ var users = [
 },
 {
     username: "sam",
-    email: "jane@test.com",
+    email: "sam@test.com",
     years_experience: 8.2,
     favorite_languages: ["JavaScript","Ruby", "Python", "Go"],
     favorite_editor: "Atom",
@@ -51,7 +51,7 @@ var users = [
 },
 {
     username: "david",
-    email: "davis@test.com",
+    email: "david@test.com",
     years_experience: 12.5,
     favorite_languages: ["JavaScript", "C#", "Swift"],
     favorite_editor: "Sublime Text",

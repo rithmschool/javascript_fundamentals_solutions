@@ -14,6 +14,7 @@ var people = ["Greg", "Mary", "Devon", "James"]
 8. Write the command that gives the indexOf where "Mary" is located
 8. Write the command that gives the indexOf where "Foo" is located (this should return `-1`)
 9. Using the `splice` command, remove "Devon" from the array and add "Elizabeth" and "Artie". Your array should look like this when you are done `["Greg", "Mary", "Elizabeth", "Artie", "James"]`
+10. Create a new variable called `withBob` and set it equal to the `people` array concatenated with the string of `"Sameer"`
 
 ```javascript
 var programming = {
@@ -26,11 +27,9 @@ var programming = {
 ```
 
 1. Write the command to add the language "Go" to the languages array
+2. Change the difficulty to the value of `7`.
 2. Using the `delete` keyword, write the command to remove the jokes key from the programming object
 3. Write the command to add a new key called `isFun` and a value of `true` to the programming object.
 4. Using a loop, iterate through the languages array and console.log all of the languages
 5. Using a loop, console.log all of the keys in the programming object
 5. Using a loop, console.log all of the values in the programming object
-
-
-

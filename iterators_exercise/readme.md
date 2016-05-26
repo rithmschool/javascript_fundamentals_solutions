@@ -69,7 +69,7 @@ var users = [
 ]
 ```
 
-1. Write a function called `printEmails` which console.log's each emails for the users.
+- Write a function called `printEmails` which console.log's each emails for the users.
 
 ```javascript
 printEmails()
@@ -80,7 +80,7 @@ printEmails()
 // david@test.com
 ```
 
-2. Write a function called `printHobbies` which console.log's each hobby for each user.
+- Write a function called `printHobbies` which console.log's each hobby for each user.
 
 ```javascript
 printHobbies()
@@ -101,7 +101,7 @@ printHobbies()
 // "Coding",
 ```
 
-3. Write a function called `longestFavoriteLanguage` which console.logs the longest language in each of the user's `favorite_language` array. 
+- Write a function called `longestFavoriteLanguage` which console.logs the - 
 
 ```javascript
 longestFavoriteLanguage()
@@ -112,7 +112,7 @@ longestFavoriteLanguage()
 // "JavaScript"
 ```
 
-4. Write a function called `findHometownByState` which returns the first user which has a hometown of the state that is passed in
+- Write a function called `findHometownByState` which returns the first user which has a hometown of the state that is passed in
 
 ```javascript
 findHometownByState("CA")
@@ -132,7 +132,7 @@ findHometownByState("CA")
 /*/
 ```
 
-5. Write a function called `formatYears` which returns an array of objects with the username as the key and the years experience in days (as floats).
+- Write a function called `formatYears` which returns an array of objects with the username as the key and the years experience in days (as floats).
 
 ```javascript
 formatYears() 
@@ -147,21 +147,21 @@ formatYears()
 /*/
 ```
 
-6. Write a function called `allLanguages` which returns an array of all of the **unique** values 
+- Write a function called `allLanguages` which returns an array of all of the **unique** values 
 
 ```javascript
 allLanguages()
 // ["Perl", "Scala", "C++","Haskell", "PHP","JavaScript","Ruby", "Python", "Go","C#", "F#", "Swift"]
 ```
 
-7. Write a function called `hasFavoriteEditor` which returns a boolean if any of the users have the editor passed in
+- Write a function called `hasFavoriteEditor` which returns a boolean if any of the users have the editor passed in
 
 ```javascript
 hasFavoriteEditor("Sublime Text") // true
 hasFavoriteEditor("Eclipse") // false
 ```
 
-8. Write a function called `findByUsername` which takes in a string and returns an object in the `users` array that has that username
+- Write a function called `findByUsername` which takes in a string and returns an object in the `users` array that has that username
 
 ```javascript
 findByUsername("david") 
@@ -183,7 +183,7 @@ findByUsername("david")
 
 ### Part II
 
-1. Write a function called `vowelCount` that accepts a string and returns an object with each key being the vowel and the value being the number of times the vowel occurs in the string (the order of keys in the object does not matter)
+- Write a function called `vowelCount` that accepts a string and returns an object with each key being the vowel and the value being the number of times the vowel occurs in the string (the order of keys in the object does not matter)
 
 ```javascript
 vowelCount("incredible")
@@ -192,7 +192,7 @@ vowelCount("awesome")
 // {a:1, e:2, o:1}
 ```
 
-2. Write a function called `removeVowels` that accepts a string and returns an array of each character that is not a vowel (y should not count as a vowel for this function). 
+- Write a function called `removeVowels` that accepts a string and returns an array of each character that is not a vowel (y should not count as a vowel for this function)
 
 ```javascript
 removeVowels("amazing") // ["m","z","n","g"]

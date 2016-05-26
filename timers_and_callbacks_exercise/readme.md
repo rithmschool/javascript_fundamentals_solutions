@@ -10,26 +10,7 @@ countDown(4)
 // "DONE!"
 ```
 
-- Write a function called `diffuse` that every second selects a random number between 0 and 1, and if the value is greater than .75
-
-something like this....
-```javascript
-function diffuse(){
-   var count = 0
-   var t = setInterval(function(){
-      console.log("We have " + (3-count) + " seconds left")
-      if(Math.random() > .75){
-         console.log("whew we're saved!")
-         clearTimeout(t)
-       }
-      if(count === 3){
-         console.log("BOOM!")
-         clearTimeout(t)
-      }
-      count++
-   },1000)
-}
-```
+- Write a function called `randomGame` that selects a random number between 0 and 1 every 1000 milliseconds and each time that a random number is picked, add 1 to a counter. If the number is greater than `.75` - stop the timer and return the amount of times it took before we found a number greater than `.75`.
 
 - Write a function called isEven which takes in a number and returns true if the number is odd and returns false if it is not
 
@@ -61,3 +42,11 @@ function diffuse(){
 
 `find([1,2,3], function(val){return val >= 2} => 1`
 `find([1,2,3], function(val){return val === 4} => undefined`
+
+- Write a function called `specialMultiply` which accepts two parameters. If the function is passed both parameters, it should return the product of the two. If the function is only passed one parameter - it should return a function which can later be passed another parameter to return the product. You will have to use **closure** and **arguments** to solve this.
+
+```javascript
+specialMultiply(3,4) // 12
+specialMultiply(3)(4) // 12
+specialMultiply(3) // returns a function 
+```

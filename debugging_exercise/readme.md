@@ -14,15 +14,25 @@ Explain what type of error will be thrown, why the error is occuring and how to 
 person;
 ```
 
+Type of error - 
+Why - 
+
+
 ```javascript
 var data = {};
 data.displayInfo();
 ```
 
+Type of error - 
+Why - 
+
 ```javascript
 var data = {};
 data.displayInfo.foo = "bar";
 ```
+
+Type of error - 
+Why - 
 
 ```javascript
 function data(){
@@ -32,13 +42,20 @@ data()
 thing;
 ```
 
-Fix the broken code:
+Type of error - 
+Why - 
+
+### Part II
+
+Fix the broken code and explain what was wrong:
 
 ```javascript
 for(var i=0; i > 5; i++){
     console.log(i)
 }
 ```
+
+What was wrong - 
 
 ```javascript
 function addIfEven(num){
@@ -49,6 +66,8 @@ function addIfEven(num){
 }
 ```
 
+What was wrong - 
+
 ```javascript
 function loopToFive(){
     for(var i=0, i < 5, i++){
@@ -56,6 +75,8 @@ function loopToFive(){
     }
 }
 ```
+
+What was wrong - 
 
 ```javascript
 function displayEvenNumbers(){
@@ -72,3 +93,5 @@ displayEvenNumbers() // should return [2,4,6,8]
 
 // HINT - six things need to be changed here for this to work! Start by fixing the syntax errors and then run the function to see what your output is
 ```
+
+What was wrong - 

@@ -5,8 +5,7 @@
 - Nested objects exercise
 - Recursion Exercise
 - JS Testing Exercise
-- Call Apply Bind Exercise
-- Constructor Functions Exercise
+- Call Apply Bind Exercise - almost done
 - Prototypes Exercise
 - ES2015 Exercise
 - jQuery Exercise

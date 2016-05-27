@@ -64,14 +64,35 @@ var nestedObject = {
 
 ### Part II
 
-**ADD MORE 2D ARRAY PROBLEMS**
-
 - Write a function called rotate which takes an array and a number and moves each element however many spaces the number is to the right
 
 ```javascript
 rotate([1,2,3], 1) // [1,2,3]
 rotate([1,2,3], 2) // [2,3,1]
 rotate([1,2,3], 3) // [1,2,3]
+```
+
+- Write a function called `makeXOGrid` which takes in an array and adds
+
+```javascript
+function makeGrid(rows,amount){
+    var startArr = []
+    var startWithX = true
+    for(var i=0; i<rows; i++){
+        var newRow = []
+        for(var j=0; j<amount; j++){
+            if(startWithX){
+                newRow.push("X")
+            }
+            else {
+                newRow.push("O")
+            }
+            startWithX = !startWithX         
+        }
+        startArr.push(newRow)
+    }
+    return startArr;
+}
 ```
 
 **BONUS**

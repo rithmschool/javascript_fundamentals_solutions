@@ -27,13 +27,18 @@ Prototype methods for....
 
 ### Part II:
 
-How would you design a game of chess? What kinds of constructor functions and prototype properties/functions would you need?
+For the next part, let's think less about the actual code we need to write and more about thinking in an Object Oriented way. 
+
+- Let's imagine that we are building an application which allows users to play chess. What constructor functions would we need? What kinds of prototype functions and properties would we need as well?
+
+- Let's imagine that we are building a game of Tic Tac Toe. What kinds of prototype functions and properties would we need as well?
 
 ### Part III:
+
+- What is it called when you override existing functions/properties on built in JavaScript constructors? (When you write your own version of `Array.prototype.push`)
 
 - Implement your own version of `Function.prototype.bind`
 
 - Implement your own version of `Array.prototype.map`
 
 - Implement a function that reverses a string and place it on the `String.prototype`
-

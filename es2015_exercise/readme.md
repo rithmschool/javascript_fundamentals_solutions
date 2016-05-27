@@ -79,3 +79,13 @@ Person.isPerson = function(person){
     return person.constructor === Person;
 }
 ```
+
+Research the following functions - what do they do?
+
+`Array.from` -
+
+`Object.assign` -
+
+`Array.includes` -
+
+`String.startsWith` -

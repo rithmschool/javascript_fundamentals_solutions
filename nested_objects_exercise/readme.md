@@ -72,32 +72,31 @@ rotate([1,2,3], 2) // [2,3,1]
 rotate([1,2,3], 3) // [1,2,3]
 ```
 
-- Write a function called `makeXOGrid` which takes in an array and adds
+- Write a function called `makeXOGrid` which takes in two parameters, rows and amount and returns an array of arrays with the number of values in the array equal to the `amount` parameter and the number of subarrays equal to the `rows` parameter. The values in the sub-arrays should switch between `"X"` and `"O"`.
 
 ```javascript
-function makeGrid(rows,amount){
-    var startArr = []
-    var startWithX = true
-    for(var i=0; i<rows; i++){
-        var newRow = []
-        for(var j=0; j<amount; j++){
-            if(startWithX){
-                newRow.push("X")
-            }
-            else {
-                newRow.push("O")
-            }
-            startWithX = !startWithX         
-        }
-        startArr.push(newRow)
-    }
-    return startArr;
-}
+makeGrid(1,4) 
+
+/*/
+[["X","O","X","O"]]
+/*/
+
+makeGrid(2,2) 
+
+/*/
+[["X","O"],["X","O"],["X","O"]]
+/*/
+
+makeGrid(3,3) 
+/*/
+[["X","O","X"],["O","X","O"],["X","O","X"]]
+/*/
+
 ```
 
 **BONUS**
 
-- Rotate a two dimensional array clockwise
+- Write a function called rotateClockwise that rotate a two dimensional array clockwise
 
 ```javascript
 rotateClockwise([[1,2,3], [4,5,6], [7,8,9]],2) // [[8,9,1], [2,3,4], [5,6,7]]

@@ -1,8 +1,6 @@
 ## Todo
 
 - CSS Exercise
-- Bootstrap Mocks
-- Nested objects exercise
 - Recursion Exercise
 - JS Testing Exercise
 - Call Apply Bind Exercise - almost done

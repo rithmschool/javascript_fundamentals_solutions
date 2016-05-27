@@ -3,7 +3,6 @@
 - CSS Exercise
 - Recursion Exercise
 - JS Testing Exercise
-- Call Apply Bind Exercise - almost done
 - Prototypes Exercise
 - ES2015 Exercise
 - jQuery Exercise

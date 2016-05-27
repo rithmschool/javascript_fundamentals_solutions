@@ -31,6 +31,14 @@ arr[1] = temp
 ```
 
 ```javascript
+function double(arr){
+    return arr.map(function(val){
+        return val*2
+    });
+}
+```
+
+```javascript
 var obj = {
     numbers: {
         a: 1,

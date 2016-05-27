@@ -1,7 +1,6 @@
 ## Todo
 
 - Recursion Exercise
-- JS Testing Exercise
 - ES2015 Exercise
 - jQuery Exercise
 - How the web works exercise

@@ -29,7 +29,7 @@ var obj = {
         }
     }
 }
-collectStrings(["foo", "bar", "baz"])
+collectStrings() // ["foo", "bar", "baz"]
 ```
 
 - Write a function called `stringifyNumbers` which takes in an object and finds all of the values which are numbers and converts them to strings. Recursion would be a great way to solve this!
@@ -52,7 +52,7 @@ stringifyNumbers()
     num: "1",
     test: [],
     data: {
-        val: "4"
+        val: "4",
         info: {
             isRight: true,
             random: "66"
@@ -80,7 +80,7 @@ var nestedObject = {
 }
 
 contains(nestedObject, 44) // true
-contains(nestedObject, 44) // true
+contains(nestedObject, "foo") // false
 ```
 
 - Write a function called search that finds a value in an array and returns the index where the value is at. If the value is not found, the function should return negative 1.

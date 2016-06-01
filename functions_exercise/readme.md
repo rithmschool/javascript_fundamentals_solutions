@@ -1,6 +1,17 @@
 ## Functions Exercise
 
-Write the following functions in the `functions_exercise.js` file.
+### Getting started
+
+Your assignment is to write the following functions in the `functions_exercise.js` file. There is a file called `index.html` which runs tests against these functions to make sure they do what is specified. To run these tests just open the `index.html` file (you should not touch anything in the file). Your goal is to make all of the tests pass (there should be no red). The first function has been done for you.
+
+### Functions to write
+
+- `difference` - this function takes in two parameters and returns the difference of the two;
+
+```javascript
+difference(2,2) // 0
+difference(0,2) // -2
+```
 
 - `product` - this function takes in two parameters and returns the product of the two;
 

@@ -2,7 +2,7 @@
 
 ### Part I 
 
-Use the following object for this set of questions:
+To run the tests, open the `index.html` file. There are not tests for the first couple functions since `forEach` is not easily testable. Use the following object for this set of questions:
 
 ```javascript
 var users = [

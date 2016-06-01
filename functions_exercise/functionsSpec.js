@@ -1,5 +1,14 @@
 var expect = chai.expect
 
+describe("#difference", function(){
+  it("returns the result of one number subtracted by another", function(){
+    expect(difference(10,2)).to.equal(8)
+  });
+  it("works with negative numbers", function(){
+    expect(difference(-2,2)).to.equal(-4)
+  });
+});
+
 describe("#product", function(){
   it("returns the result of one number multiplied by another", function(){
     expect(product(2,2)).to.equal(4)

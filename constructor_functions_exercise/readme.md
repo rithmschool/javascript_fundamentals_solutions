@@ -1,12 +1,20 @@
 # Constructors Exercise
 
-1. Create a constructor function for a Person, each person should have a firstName, lastName, favoriteColor and favoriteNumber.
+Answer the following questions and make the tests pass.
 
-2. Write a method called multiplyFavoriteNumber that takes in a number and returns the product of the number and the Person's favorite number
+1. What is the purpose of a constructor function? 
 
-3. Create a constructor function for a Vehicle. Each vehicle should have a make, model and year. 
+2. What does the `new` keyword do?
 
-4. Refactor the following code so that there is no duplication inside the `Child` function.
+3. What does the keyword `this` refer to inside of a constructor function? 
+
+4. What is a `class`? What is an `instance`?
+
+5. Create a constructor function for a Person, each person should have a firstName, lastName, favoriteColor and favoriteNumber.
+
+6. Write a method called multiplyFavoriteNumber that takes in a number and returns the product of the number and the Person's favorite number
+
+7. Refactor the following code so that there is no duplication inside the `Child` function.
 
 ```javascript
 function Parent(firstName, lastName, favoriteColor, favoriteFood){

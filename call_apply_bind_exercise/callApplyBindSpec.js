@@ -9,11 +9,27 @@ describe("#sumEvenArguments", function(){
 });
 
 describe("#arrayFrom", function(){
-  it("takes all of the arguments passed to a function and returns the sum of the even ones", function(){
+  function convert(){
+      var arr = arrayFrom(arguments)
+      return arr;
+  }
+  it("takes an array like object and converts it into an array", function(){
+    var argsArr = convert();
+    expect(argsArr.reduce).to.be.function
   });
 });
 
 describe("#invokeMax", function(){
-  it("takes all of the arguments passed to a function and returns the sum of the even ones", function(){
+  function add(a,b){
+      return a+b
+  }
+  it("returns a function that calls another function a certain amount of times", function(){
+
+   var addOnlyThreeTimes = invokeMax(add,3);
+   expect(addOnlyThreeTimes(1,2)).to.equal(3) // 3
+   expect(addOnlyThreeTimes(2,2)).to.equal(4) // 4
+   expect(addOnlyThreeTimes(1,2)).to.equal(3) // 3
+   expect(addOnlyThreeTimes(1,2)).to.equal("Maxed Out!")
+   expect(addOnlyThreeTimes(1,2)).to.equal("Maxed Out!")
   });
 });

@@ -2,6 +2,7 @@
 
 1. [HTML Exercises](./html_exercises)
 2. [CSS Exercises](./css_exercises)
+3. [CSS Animations](./css_animations)
 3. [Bootstrap Mocks](./bootstrap_mocks)
 4. [Objects and Arrays Exercise](./objects_and_arrays_exercise)
 5. [Functions Exercise](./functions_exercise)

@@ -92,11 +92,3 @@ makeGrid(3,3)
 /*/
 
 ```
-
-**BONUS**
-
-- Write a function called rotateClockwise that rotate a two dimensional array clockwise
-
-```javascript
-rotateClockwise([[1,2,3], [4,5,6], [7,8,9]],2) // [[8,9,1], [2,3,4], [5,6,7]]
-```

@@ -21,11 +21,11 @@ var nestedData = {
 }
 ```
 
-- console.log all of the numbers in the `primeNumbers` array
-- console.log all of the even fibonnaci numbers
+- using a for loop, console.log all of the numbers in the `primeNumbers` array
+- using a for loop, console.log all of the even fibonnaci numbers
 - console.log the value "second" inside the order array
 - invoke the `addSnack` function and add snack of "chocolate"
-- What does the word `this` refer to inside the `addSnack` function?
+- Inside of the addSnack function there is a special keyword called `this`. What does the word `this` refer to inside the `addSnack` function?
 
 Given the following nested object:
 

@@ -1,6 +1,6 @@
-## Iterators Exercise
+# Iterators Exercise
 
-### Part I 
+## Part I 
 
 To run the tests, open the `index.html` file. There are not tests for the first couple functions since `forEach` is not easily testable. Use the following object for this set of questions:
 
@@ -181,7 +181,7 @@ findByUsername("david")
 /*/
 ```
 
-### Part II
+## Part II
 
 - Write a function called `vowelCount` that accepts a string and returns an object with each key being the vowel and the value being the number of times the vowel occurs in the string (the order of keys in the object does not matter)
 

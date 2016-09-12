@@ -1,4 +1,4 @@
-## Objects and Arrays Exercise
+# Objects and Arrays Exercise
 
 For each of the exercises below, assume you are starting with the following `people` array.
 

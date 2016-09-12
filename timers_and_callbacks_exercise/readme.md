@@ -1,4 +1,4 @@
-## Timers and Callbacks Exercise
+# Timers and Callbacks Exercise
 
 - Write a function called `countdown` that accepts a number as a parameter and every 1000 milliseconds console.log's the value 
 

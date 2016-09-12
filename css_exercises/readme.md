@@ -1,8 +1,8 @@
-## CSS Exercises
+# CSS Exercises
 
 For these exercises - you will be rebuilding a few common websites to practice CSS. Although these exercises may seem tedious, there is NO better way than to rebuild existing sites. You might be tempted to just look at the source code - and that is fine for inspiration, but really try to do this yourself!
 
-### Sites to rebuild
+## Sites to rebuild
 
 [https://www.google.com/](https://www.google.com/)
 

@@ -1,4 +1,4 @@
-## CSS Animations
+# CSS Animations
 
 Using your newfound knowledge of CSS Animations, build a clock using entirely HTML and CSS! Here's an example:
 

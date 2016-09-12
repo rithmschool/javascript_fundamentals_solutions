@@ -1,6 +1,6 @@
-## Recursion Exercise
+# Recursion Exercise
 
-### Getting started
+## Getting started
 
 For this exercise you **MUST** use recursion to solve these problems. Some of them can be done without, but it is essential that you practice recursion and make the tests pass. 
 

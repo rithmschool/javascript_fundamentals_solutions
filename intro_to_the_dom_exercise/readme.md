@@ -1,4 +1,6 @@
-## Introduction to the DOM Exercise
+# Introduction to the DOM Exercise
+
+## Part I 
 
 Make sure you **DO NOT** delete/modify anything in the `index.html` file. Complete the following steps in the `script.js` file:
 
@@ -14,4 +16,6 @@ Make sure you **DO NOT** delete/modify anything in the `index.html` file. Comple
 
 6. Append your new `div` to the page
 
-7. Create a racing game with the two cars. When the race button is pressed, the two cars should move across the screen until one of them is at the end. When the first block reaches the end - you should alert "winner!" As a bonus, turn this into a fun racing game!
+## Part II 
+
+Create a racing game with the two cars. When the race button is pressed, the two cars should move across the screen until one of them is at the end. When the first block reaches the end - you should alert "winner!" As a bonus, turn this into a fun racing game!

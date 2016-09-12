@@ -101,7 +101,7 @@ printHobbies()
 // "Coding",
 ```
 
-- Write a function called `longestFavoriteLanguage` which console.logs the - 
+- Write a function called `longestFavoriteLanguage` which console.logs the favorite language with the greatest length for each of the users. 
 
 ```javascript
 longestFavoriteLanguage()

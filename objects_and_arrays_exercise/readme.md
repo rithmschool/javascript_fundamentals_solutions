@@ -30,7 +30,7 @@ var programming = {
 }
 ```
 
-1. Write the command to add the language "Go" to the languages array
+1. Write the command to add the language "Go" to the end of the languages array
 2. Change the difficulty to the value of `7`.
 2. Using the `delete` keyword, write the command to remove the jokes key from the programming object
 3. Write the command to add a new key called `isFun` and a value of `true` to the programming object.

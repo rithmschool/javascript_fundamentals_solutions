@@ -6,18 +6,19 @@ Given the following nested object:
 
 ```javascript
 var nestedData = {
-    innerData: {
-        order: ["first", "second", "third"],
-        snacks: ["chips", "fruit", "crackers"],
-        numberData: {
-            primeNumbers: [1,3,5,7,9],
-            fibonnaci: [1,1,2,3,5,8,13]
-        },
-        addSnack: function(snack){
-            this.snacks.push(snack);
-            return this;
-        }
+  innerData: {
+    order: ["first", "second", "third"],
+    snacks: ["chips", "fruit", "crackers"],
+    numberData: {
+        primeNumbers: [1,3,5,7,9],
+        fibonnaci: [1,1,2,3,5,8,13]
+    },
+    addSnack: function(snack){
+        console.log("WHAT IS THIS?", this)
+        this.snacks.push(snack);
+        return this;
     }
+  }
 }
 ```
 
@@ -31,27 +32,27 @@ Given the following nested object:
 
 ```javascript
 var nestedObject = {
-    speakers: [{name:"Elie"},{name:"Tim"},{name:"Matt"}]
-    data: {
-        continents: {
-            europe: {
-                countries: {
-                    switzerland: {
-                        capital: "Bern",
-                        population: 8000000
-                    }
-                }
-            }
+  speakers: [{name:"Elie"},{name:"Tim"},{name:"Matt"}],
+  data: {
+    continents: {
+      europe: {
+        countries: {
+          switzerland: {
+            capital: "Bern",
+            population: 8000000
+          }
         }
-        languages: {
-            spanish: {
-                hello: "Hola"
-            },
-            french: {
-                hello: "Bonjour"
-            }
-        }
+      }
+    },
+    languages: {
+      spanish: {
+          hello: "Hola"
+      },
+      french: {
+          hello: "Bonjour"
+      }
     }
+  }
 }
 ```
 

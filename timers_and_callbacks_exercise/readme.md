@@ -12,7 +12,7 @@ countDown(4)
 
 - Write a function called `randomGame` that selects a random number between 0 and 1 every 1000 milliseconds and each time that a random number is picked, add 1 to a counter. If the number is greater than `.75` - stop the timer and return the amount of times it took before we found a number greater than `.75`.
 
-- Write a function called isEven which takes in a number and returns true if the number is odd and returns false if it is not
+- Write a function called isEven which takes in a number and returns true if the number is even and returns false if it is not
 
 ```javascript
 isEven(2) // true

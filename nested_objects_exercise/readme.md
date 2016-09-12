@@ -55,7 +55,7 @@ var nestedObject = {
 }
 ```
 
-- Write a function to add a speaker to the array of speakers. The speaker you add must be an object with a key of name and a value of whatever you'd like.
+- Write a function `addSpeaker` to add a speaker to the array of speakers. The speaker you add must be an object with a key of name and a value of whatever you'd like. 
 
 - Write a function `addLanguage` that adds a language to the languages object. The language object you add should have a key with the name of the language and the value of another object with a key of "hello" and a value of however you spell "hello" in the language you add.
 

@@ -14,7 +14,6 @@ var nestedData = {
         fibonnaci: [1,1,2,3,5,8,13]
     },
     addSnack: function(snack){
-        console.log("WHAT IS THIS?", this)
         this.snacks.push(snack);
         return this;
     }
@@ -60,7 +59,7 @@ var nestedObject = {
 
 - Write a function `addLanguage` that adds a language to the languages object. The language object you add should have a key with the name of the language and the value of another object with a key of "hello" and a value of however you spell "hello" in the language you add.
 
-- Write a function `addCountry` that adds a country to the countries object. The country you add should be an object with the key as name of the country and the value as an object with the keys of "capital" and "population" and their respective values
+- Write a function `addCountry` that adds a european country to the countries object (inside of the continents object, inside of the countries object). The country you add should be an object with the key as name of the country and the value as an object with the keys of "capital" and "population" and their respective values
 
 ### Part II
 

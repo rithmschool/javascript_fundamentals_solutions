@@ -15,7 +15,7 @@ var people = ["Greg", "Mary", "Devon", "James"]
 7. write the command to make a copy of the array using `slice`. The copy should **NOT** include "Mary"
 8. Write the command that gives the indexOf where "Mary" is located
 8. Write the command that gives the indexOf where "Foo" is located (this should return `-1`)
-9. Using the `splice` command, remove "Devon" from the array and add "Elizabeth" and "Artie". Your array should look like this when you are done `["Greg", "Mary", "Elizabeth", "Artie", "James"]`
+9. Redefine the people variable with the value you started with. Using the `splice` command, remove "Devon" from the array and add "Elizabeth" and "Artie". Your array should look like this when you are done `["Greg", "Mary", "Elizabeth", "Artie", "James"]`
 10. Create a new variable called `withBob` and set it equal to the `people` array concatenated with the string of `"Bob"`
 
 For each of the exercises below, assume you are starting with the following `programming` object.

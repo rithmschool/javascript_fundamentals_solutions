@@ -36,4 +36,94 @@ function numberCompare(a,b){
   return 'Second is greater'
 }
 
+function singleLetterCount(str1, str2){
+  var finalCount = 0;
+  for(var i=0; i< str1.length; i++){
+    if(str1[i].toLowerCase() === str2.toLowerCase()){
+      finalCount++
+    }
+  }
+  return finalCount;
+}
 
+function multipleLetterCount(str){
+  var finalObj = {}
+  for(var i =0; i< str.length; i++){
+    if (str[i] in finalObj){
+      finalObj[str[i]]++
+    } else {
+      finalObj[str[i]] = 1
+    }
+  }
+  return finalObj;
+}
+
+function arrayManipulation(arr, command, place, val){
+  if(command === 'remove'){
+    if(place === 'end'){
+      return arr.pop();
+    }
+      return arr.shift();
+  }
+  else if(command === 'add'){
+    if(place === 'end'){
+      arr.push(val)
+      return arr;
+    }
+    arr.unshift(val)
+    return arr;
+  }
+}
+
+function sortedKeysOfObject(obj){
+  // var keys = [];
+  // for(var key in obj){
+  //   keys.push(key)
+  // }
+  // var keys = Object.keys(obj);
+
+  // return keys.sort(function(a,b){
+  //   return a>b;
+  // })
+
+  return Object.keys(obj).sort(function(a,b){
+    return a > b;
+  })
+}
+
+function isPalindrome(str){
+  return str.toLowerCase().split('').reverse().join('') === str;
+
+  // for(var i =0; i<str.length; i++){
+  //   if(str[i].toLowerCase() !== str[str.length-1-i].toLowerCase()){
+  //     return false;
+  //   }
+  // }
+  // return true
+}
+
+function RPS(){
+
+  var answers = ["rock", "paper", "scissor"]
+
+  function determineComputer(num){
+    if(num <= .33) return "rock"
+    else if(num <= .66) return "paper"
+    return "scissor"
+  }
+
+  var userChoice = prompt("Choose rock / paper or scissor").toLowerCase();
+  var computerChoice = determineComputer(Math.random());
+
+  if(!userChoice || answers.indexOf("userChoice") === -1){
+    return "Please select a valid option"
+  }
+
+  if(userChoice === computerChoice) return "Tie!"
+
+  if(userChoice === "rock" && computerChoice === "paper") return "You lose, computer picked " +  computerChoice;
+  if(userChoice === "paper" && computerChoice === "scissor") return "You lose, computer picked " +  computerChoice;
+  if(userChoice === "scissor" && computerChoice === "rock") return "You lose, computer picked " +  computerChoice;
+
+  return "You win! Computer picked " +  computerChoice;
+}

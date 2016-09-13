@@ -31,7 +31,7 @@ describe("#numberFact", function(){
   it("takes a value and a function and runs the function with that value", function(){
     expect(numberFact(59,isEven)).to.equal(false)
     expect(numberFact(59,isOdd)).to.equal(true)
-    expect(numberFact(59,isPrime)).to.equal(false)
+    expect(numberFact(59,isPrime)).to.equal(true)
   });
 });
 

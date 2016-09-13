@@ -101,17 +101,6 @@ printHobbies()
 // "Coding",
 ```
 
-- Write a function called `longestFavoriteLanguage` which console.logs the favorite language with the greatest length for each of the users. 
-
-```javascript
-longestFavoriteLanguage()
-// "Scala"
-// "Haskell"
-// "JavaScript"
-// "C++"
-// "JavaScript"
-```
-
 - Write a function called `findHometownByState` which returns the first user which has a hometown of the state that is passed in
 
 ```javascript

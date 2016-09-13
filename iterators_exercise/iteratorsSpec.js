@@ -1,22 +1,8 @@
 var expect = chai.expect
 
-// PART ONE
-
-describe("#formatYears", function(){
-  it("returns an array of objects with keys as the username and values as the years_experience*365", function(){
-    expect(formatYears()).to.deep.equal([
-      { larry: 8806.5},
-      { jane: 12373.5},
-      { sam: 2993},
-      { anne: 1460},
-      { david: 4562.5}
-    ])
-  });
-});
-
 describe("#allLanguages", function(){
   it("returns an array of all the unique programming languages", function(){
-    expect(allLanguages()).to.deep.equal(["Perl", "Scala", "C++","Haskell", "PHP","JavaScript","Ruby", "Python", "Go","C#", "F#", "Swift"])
+    expect(allLanguages()).to.deep.equal(["Perl", "Java", "C++", "Haskell", "Clojure", "PHP", "JavaScript", "Ruby", "Python", "Go", "C#", "F#", "Swift"])
   });
 });
 
@@ -32,17 +18,17 @@ describe("#hasFavoriteEditor", function(){
 describe("#findByUsername", function(){
   it("finds a user by a username", function(){
     expect(findByUsername("david")).to.deep.equal({
-    username: "david",
-    email: "david@test.com",
-    years_experience: 12.5,
-    favorite_languages: ["JavaScript", "C#", "Swift"],
-    favorite_editor: "Sublime Text",
-    hobbies: ["Volunteering", "Biking", "Coding"],
-    hometown: {
-        city: "Los Angeles",
-        state: "CA"
-    }
-  })
+  username: "david",
+  email: "david@test.com",
+  yearsExperience: 12.5,
+  favoriteLanguages: ["JavaScript", "C#", "Swift"],
+  favoriteEditor: "Sublime Text",
+  hobbies: ["Volunteering", "Biking", "Coding"],
+  hometown: {
+    city: "Los Angeles",
+    state: "CA"
+  }
+})
   });
 });
 

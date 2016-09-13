@@ -5,66 +5,68 @@
 To run the tests, open the `index.html` file. There are not tests for the first couple functions since `forEach` is not easily testable. Use the following object for this set of questions:
 
 ```javascript
+// DO NOT DELETE THIS
+
 var users = [
 {
-    username: "larry",
-    email: "larry@foo.com",
-    years_experience: 22.1,
-    favorite_languages: ["Perl", "Scala", "C++"],
-    favorite_editor: "Vim",
-    hobbies: ["Fishing", "Sailing", "Hiking"],
-    hometown: {
-        city: "San Francisco",
-        state: "CA"
-    }
+  username: "larry",
+  email: "larry@foo.com",
+  yearsExperience: 22.1,
+  favoriteLanguages: ["Perl", "Java", "C++"],
+  favoriteEditor: "Vim",
+  hobbies: ["Fishing", "Sailing", "Hiking"],
+  hometown: {
+    city: "San Francisco",
+    state: "CA"
+  }
 },
 {
-    username: "jane",
-    email: "jane@test.com",
-    years_experience: 33.9,
-    favorite_languages: ["Haskell", "Scala", "PHP"],
-    favorite_editor: "Emacs",
-    hobbies: ["Swimming", "Biking", "Hiking"],
-    hometown: {
-        city: "New York",
-        state: "NY"
-    }
+  username: "jane",
+  email: "jane@test.com",
+  yearsExperience: 33.9,
+  favoriteLanguages: ["Haskell", "Clojure", "PHP"],
+  favoriteEditor: "Emacs",
+  hobbies: ["Swimming", "Biking", "Hiking"],
+  hometown: {
+    city: "New York",
+    state: "NY"
+  }
 },
 {
-    username: "sam",
-    email: "sam@test.com",
-    years_experience: 8.2,
-    favorite_languages: ["JavaScript","Ruby", "Python", "Go"],
-    favorite_editor: "Atom",
-    hobbies: ["Golf", "Cooking", "Archery"],
-    hometown: {
-        city: "Fargo",
-        state: "SD"
-    }
+  username: "sam",
+  email: "sam@test.com",
+  yearsExperience: 8.2,
+  favoriteLanguages: ["JavaScript","Ruby", "Python", "Go"],
+  favoriteEditor: "Atom",
+  hobbies: ["Golf", "Cooking", "Archery"],
+  hometown: {
+    city: "Fargo",
+    state: "SD"
+  }
 },
 {
-    username: "anne",
-    email: "anne@test.com",
-    years_experience: 4,
-    favorite_languages: ["C#", "C++", "F#"],
-    favorite_editor: "Visual Studio Code",
-    hobbies: ["Tennis", "Biking", "Archery"],
-    hometown: {
-        city: "Albany",
-        state: "NY"
-    }
+  username: "anne",
+  email: "anne@test.com",
+  yearsExperience: 4,
+  favoriteLanguages: ["C#", "C++", "F#"],
+  favoriteEditor: "Visual Studio Code",
+  hobbies: ["Tennis", "Biking", "Archery"],
+  hometown: {
+    city: "Albany",
+    state: "NY"
+  }
 },
 {
-    username: "david",
-    email: "david@test.com",
-    years_experience: 12.5,
-    favorite_languages: ["JavaScript", "C#", "Swift"],
-    favorite_editor: "Sublime Text",
-    hobbies: ["Volunteering", "Biking", "Coding"],
-    hometown: {
-        city: "Los Angeles",
-        state: "CA"
-    }
+  username: "david",
+  email: "david@test.com",
+  yearsExperience: 12.5,
+  favoriteLanguages: ["JavaScript", "C#", "Swift"],
+  favoriteEditor: "Sublime Text",
+  hobbies: ["Volunteering", "Biking", "Coding"],
+  hometown: {
+    city: "Los Angeles",
+    state: "CA"
+  }
 }
 ]
 ```

@@ -1,3 +1,4 @@
+
 div {
   width: 50px;
   height: 50px;
@@ -11,6 +12,9 @@ div {
 }
 .blue{
   background-color: blue;
+}
+.purple{
+  background-color: purple;
 }
 .yellow{
   background-color: yellow;

@@ -11,27 +11,6 @@ productOfArray([1,2,3]) // 6
 productOfArray([1,2,3,10]) // 60
 ```
 
-- Write a function called `collectStrings` which accepts an object and finds all of the values which are strings and adds them to an array
-
-```javascript
-var obj = {
-    stuff: "foo",
-    data: {
-        val: {
-            thing: {
-                info: "bar",
-                moreInfo: {
-                    evenMoreInfo: {
-                        weMadeIt: "baz"
-                    }
-                }
-            }
-        }
-    }
-}
-collectStrings() // ["foo", "bar", "baz"]
-```
-
 - Write a function called `stringifyNumbers` which takes in an object and finds all of the values which are numbers and converts them to strings. Recursion would be a great way to solve this!
 
 ```javascript

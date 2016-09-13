@@ -121,21 +121,6 @@ findHometownByState("CA")
 /*/
 ```
 
-- Write a function called `formatYears` which returns an array of objects with the username as the key and the years experience in days (as floats).
-
-```javascript
-formatYears() 
-/*/
-[
-    { larry: 8806.5},
-    { jane: 12373.5},
-    { sam: 2993},
-    { anne: 1460},
-    { david: 4562.5}
-]
-/*/
-```
-
 - Write a function called `allLanguages` which returns an array of all of the **unique** values 
 
 ```javascript

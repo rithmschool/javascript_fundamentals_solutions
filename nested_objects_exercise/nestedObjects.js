@@ -83,9 +83,9 @@ var nestedObject = {
 }
 
 
-function addSpeaker(name){
+function addSpeaker(speakerName){
   nestedObject.speakers.push({
-    name: name
+    name: speakerName
   })
 }
 
@@ -106,15 +106,15 @@ function addCountry(name, capital, population){
 // PART II
 
 function rotate(arr, num){
-  var amount = num % arr.length
+  var amount = num % arr.length;
   for(var i=0; i< amount; i++){
-    arr.push(arr.shift())
+    arr.push(arr.shift());
   }
-  return arr
+  return arr;
 }
 
 function makeXOGrid(rows,amount){
-    var startArr = []
+    var finalArr = []
     var startWithX = true
     for(var i=0; i<rows; i++){
         var newRow = []
@@ -127,7 +127,7 @@ function makeXOGrid(rows,amount){
             }
             startWithX = !startWithX
         }
-        startArr.push(newRow)
+        finalArr.push(newRow)
     }
-    return startArr;
+    return finalArr;
 }

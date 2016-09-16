@@ -17,7 +17,6 @@ function randomGame(){
   var times = 0;
   var timer = setInterval(function(){
     num = Math.random()
-    console.log("NUM IS", num)
     times++
     if(num > .75) {
       clearInterval(timer)
@@ -35,7 +34,7 @@ function isOdd(num){
 }
 
 function isPrime(value) {
-    for(var i = 2; i < value; i++) {
+    for(var i = 2; i < Math.sqrt(value); i++) {
         if(value % i === 0) {
             return false;
         }
@@ -67,6 +66,7 @@ function specialMultiply(a,b){
   }
   return a*b
 }
+
 
 
 

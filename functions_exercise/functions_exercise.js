@@ -36,10 +36,10 @@ function numberCompare(a,b){
   return 'Second is greater'
 }
 
-function singleLetterCount(str1, str2){
+function singleLetterCount(str1, letter){
   var finalCount = 0;
   for(var i=0; i< str1.length; i++){
-    if(str1[i].toLowerCase() === str2.toLowerCase()){
+    if(str1[i].toLowerCase() === letter.toLowerCase()){
       finalCount++
     }
   }
@@ -58,15 +58,15 @@ function multipleLetterCount(str){
   return finalObj;
 }
 
-function arrayManipulation(arr, command, place, val){
+function arrayManipulation(arr, command, position, val){
   if(command === 'remove'){
-    if(place === 'end'){
+    if(position === 'end'){
       return arr.pop();
     }
       return arr.shift();
   }
   else if(command === 'add'){
-    if(place === 'end'){
+    if(position === 'end'){
       arr.push(val)
       return arr;
     }
@@ -92,9 +92,9 @@ function sortedKeysOfObject(obj){
 }
 
 function isPalindrome(str){
-  return str.toLowerCase().split('').reverse().join('') === str;
+  return str.toLowerCase().split('').reverse().join('') === str.toLowerCase();
 
-  // for(var i =0; i<str.length; i++){
+  // for(var i =0; i<str.length/2; i++){
   //   if(str[i].toLowerCase() !== str[str.length-1-i].toLowerCase()){
   //     return false;
   //   }
@@ -104,7 +104,6 @@ function isPalindrome(str){
 
 function RPS(){
 
-  var answers = ["rock", "paper", "scissor"]
 
   function determineComputer(num){
     if(num <= .33) return "rock"
@@ -115,7 +114,10 @@ function RPS(){
   var userChoice = prompt("Choose rock / paper or scissor").toLowerCase();
   var computerChoice = determineComputer(Math.random());
 
-  if(!userChoice || answers.indexOf("userChoice") === -1){
+
+  var answers = ["rock", "paper", "scissor"]
+
+  if(!userChoice || answers.indexOf(userChoice) === -1){
     return "Please select a valid option"
   }
 

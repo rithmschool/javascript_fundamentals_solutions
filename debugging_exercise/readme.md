@@ -91,7 +91,7 @@ function displayEvenNumbers(){
 }
 displayEvenNumbers() // should return [2,4,6,8] 
 
-// HINT - six things need to be changed here for this to work! Start by fixing the syntax errors and then run the function to see what your output is
+// HINT - seven things need to be changed here for this to work! Start by fixing the syntax errors and then run the function to see what your output is
 ```
 
 What was wrong - 

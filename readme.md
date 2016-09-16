@@ -9,7 +9,6 @@
 6. [Debugging Exercise](./debugging_exercise)
 7. [Nested Objects Exercise](./nested_objects_exercise)
 8. [Timers and Callbacks Exercise](./timers_and_callbacks_exercise)
-9. [Iterators Exercise](./iterators_exercise)
-10. [Recursion Exercise](./recursion_exercise)
 11. [Intro to the DOM Exercise](./intro_to_the_dom_exercise)
 12. [Todo Exercise](./todo_exercise)
+13. [jQuery Exercise](./jquery_exercise)

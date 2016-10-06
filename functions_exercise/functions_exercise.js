@@ -18,41 +18,40 @@ function printDay(num){
     5: "Thursday",
     6: "Friday",
     7: "Saturday",
-  }
-  return dates[num]
+  };
+  return dates[num];
 }
 
 function lastElement(arr){
-  // [1,2,3]
-  return arr[arr.length-1]
+  return arr[arr.length-1];
 }
 
 function numberCompare(a,b){
   if(a === b){
-    return 'Numbers are equal'
+    return 'Numbers are equal';
   } else if(a > b){
-    return 'First is greater'
+    return 'First is greater';
   }
-  return 'Second is greater'
+  return 'Second is greater';
 }
 
 function singleLetterCount(str1, letter){
   var finalCount = 0;
   for(var i=0; i< str1.length; i++){
     if(str1[i].toLowerCase() === letter.toLowerCase()){
-      finalCount++
+      finalCount++;
     }
   }
   return finalCount;
 }
 
 function multipleLetterCount(str){
-  var finalObj = {}
+  var finalObj = {};
   for(var i =0; i< str.length; i++){
     if (str[i] in finalObj){
-      finalObj[str[i]]++
+      finalObj[str[i]]++;
     } else {
-      finalObj[str[i]] = 1
+      finalObj[str[i]] = 1;
     }
   }
   return finalObj;
@@ -78,7 +77,7 @@ function arrayManipulation(arr, command, position, val){
 function sortedKeysOfObject(obj){
   // var keys = [];
   // for(var key in obj){
-  //   keys.push(key)
+  //   keys.push(key);
   // }
   // var keys = Object.keys(obj);
 
@@ -99,29 +98,28 @@ function isPalindrome(str){
   //     return false;
   //   }
   // }
-  // return true
+  // return true;
 }
 
 function RPS(){
 
-
   function determineComputer(num){
-    if(num <= .33) return "rock"
-    else if(num <= .66) return "paper"
-    return "scissor"
+    if(num <= .33) return "rock";
+    else if(num <= .66) return "paper";
+    return "scissor";
   }
 
   var userChoice = prompt("Choose rock / paper or scissor").toLowerCase();
   var computerChoice = determineComputer(Math.random());
 
 
-  var answers = ["rock", "paper", "scissor"]
+  var answers = ["rock", "paper", "scissor"];
 
   if(!userChoice || answers.indexOf(userChoice) === -1){
-    return "Please select a valid option"
+    return "Please select a valid option";
   }
 
-  if(userChoice === computerChoice) return "Tie!"
+  if(userChoice === computerChoice) return "Tie!";
 
   if(userChoice === "rock" && computerChoice === "paper") return "You lose, computer picked " +  computerChoice;
   if(userChoice === "paper" && computerChoice === "scissor") return "You lose, computer picked " +  computerChoice;

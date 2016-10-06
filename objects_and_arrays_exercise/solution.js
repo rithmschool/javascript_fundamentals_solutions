@@ -1,25 +1,25 @@
-var people = ["Greg", "Mary", "Devon", "James"]
+var people = ["Greg", "Mary", "Devon", "James"];
 
 // 1
 for(var i =0; i< people.length; i++){
-    console.log(people[i])
+    console.log(people[i]);
 }
 
 // 2
 
-people.shift()
+people.shift();
 
 // 3
 
-people.pop()
+people.pop();
 
 // 4
 
-people.unshift("Matt")
+people.unshift("Matt");
 
 // 5
 
-people.push("Elie")
+people.push("Elie");
 
 // 6
 
@@ -32,26 +32,26 @@ for(var i =0; i< people.length; i++){
 
 // 7
 
-people.slice(2)
+people.slice(2);
 
 // 8
 
-people.indexOf("Mary")
+people.indexOf("Mary");
 
 // 9
 
-people.indexOf("Foo")
+people.indexOf("Foo");
 
 
 // 10
 
-var people = ["Greg", "Mary", "Devon", "James"]
+var people = ["Greg", "Mary", "Devon", "James"];
 
-people.splice(2,1,"Elizabeth", "Artie")
+people.splice(2,1,"Elizabeth", "Artie");
 
 // 11
 
-var withBob = people.concat("Bob")
+var withBob = people.concat("Bob");
 
 
 // PART 2
@@ -66,7 +66,7 @@ var programming = {
 
 // 1
 
-programming.languages.push("Go")
+programming.languages.push("Go");
 
 // 2
 
@@ -83,17 +83,17 @@ programming.isFun = true;
 // 5
 
 for (var i = 0; i < programming.languages.length; i++) {
-    console.log(programming.languages[i])
+    console.log(programming.languages[i]);
 }
 
 // 6
 
 for (var key in programming){
-    console.log(key)
+    console.log(key);
 }
 
 // 7
 
 for (var key in programming){
-    console.log(programming[key])
+    console.log(programming[key]);
 }

@@ -25,3 +25,7 @@ div {
 .car2 {
  background-color: #1DA788;
 }
+
+.car1, .car2 {
+    margin-left: 0;
+}

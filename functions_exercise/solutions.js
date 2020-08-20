@@ -8,7 +8,7 @@ function product(a,b){
 
 function printDay(num){
 
-  var dates = {
+  const DAYS_OF_WEEK = {
     1: "Sunday",
     2: "Monday",
     3: "Tuesday",
@@ -17,7 +17,7 @@ function printDay(num){
     6: "Friday",
     7: "Saturday",
   };
-  return dates[num];
+  return DAYS_OF_WEEK[num];
 }
 
 function lastElement(arr){
@@ -34,8 +34,8 @@ function numberCompare(a,b){
 }
 
 function singleLetterCount(str1, letter){
-  var finalCount = 0;
-  for(var i=0; i< str1.length; i++){
+  let finalCount = 0;
+  for(let i=0; i< str1.length; i++){
     if(str1[i].toLowerCase() === letter.toLowerCase()){
       finalCount++;
     }
@@ -44,8 +44,8 @@ function singleLetterCount(str1, letter){
 }
 
 function multipleLetterCount(str){
-  var finalObj = {};
-  for(var i =0; i< str.length; i++){
+  let finalObj = {};
+  for(let i =0; i< str.length; i++){
     if (!(str[i] in finalObj)){
       finalObj[str[i]] = 1;
     } else {
@@ -75,7 +75,7 @@ function arrayManipulation(arr, command, position, val){
 function isPalindrome(str){
   return str.toLowerCase().split('').reverse().join('') === str.toLowerCase();
 
-  // for(var i =0; i<str.length/2; i++){
+  // for(let i =0; i < str.length/2; i++){
   //   if(str[i].toLowerCase() !== str[str.length-1-i].toLowerCase()){
   //     return false;
   //   }
@@ -91,11 +91,11 @@ function RPS(){
     return "scissor";
   }
 
-  var userChoice = prompt("Choose rock / paper or scissor").toLowerCase();
-  var computerChoice = determineComputer(Math.random());
+  let userChoice = prompt("Choose rock / paper or scissor").toLowerCase();
+  let computerChoice = determineComputer(Math.random());
 
 
-  var answers = ["rock", "paper", "scissor"];
+  let answers = ["rock", "paper", "scissor"];
 
   if(!userChoice || answers.indexOf(userChoice) === -1){
     return "Please select a valid option";

@@ -1,4 +1,4 @@
-var programming = {
+let programming = {
     languages: ["JavaScript", "Python", "Ruby"],
     isChallenging: true,
     isRewarding: true,
@@ -24,18 +24,24 @@ programming.isFun = true;
 
 // 5
 
-for (var i = 0; i < programming.languages.length; i++) {
+for (let i = 0; i < programming.languages.length; i++) {
     console.log(programming.languages[i]);
+}
+
+// or 
+
+for (let language of programming.languages) {
+    console.log(language);
 }
 
 // 6
 
-for (var key in programming){
+for (let key in programming){
     console.log(key);
 }
 
 // 7
 
-for (var key in programming){
+for (let key in programming){
     console.log(programming[key]);
 }

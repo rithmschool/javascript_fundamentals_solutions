@@ -15,7 +15,7 @@ Write down what the following statements will return. Try to figure this out bef
 Answer the following questions about this code block:
 
 ```js
-var isLearning = true;
+let isLearning = true;
 if(isLearning){
     console.log("Keep it up!");
 } else {
@@ -27,10 +27,10 @@ if(isLearning){
 2. Why do we not need to specify `if(isLearning === true)`? Why does `if(isLearning)` work on its own? **Since true is a "truthy" value, we can let the if statement turn the expression into a value that is true or false. True will evaluate into a truthy value**
 
 ```js
-var firstVariable;
-var secondVariable = "";
-var thirdVariable = 1;
-var secretMessage = "Shh!";
+let firstVariable;
+let secondVariable = "";
+let thirdVariable = 1;
+let secretMessage = "Shh!";
 
 if(firstVariable){
     console.log("first");
@@ -55,9 +55,9 @@ if(firstVariable){
 
 ```js
 if(Math.random() > .5){
-	console.log("Over 0.5");
+  console.log("Over 0.5");
 } else {
-	console.log("Under 0.5");
+  console.log("Under 0.5");
 }
 ```
 

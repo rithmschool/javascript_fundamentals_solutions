@@ -1,7 +1,7 @@
-var people = ["Greg", "Mary", "Devon", "James"];
+let people = ["Greg", "Mary", "Devon", "James"];
 
 // 1
-for(var i =0; i< people.length; i++){
+for(let i =0; i< people.length; i++){
     console.log(people[i]);
 }
 
@@ -23,7 +23,7 @@ people.push("Elie");
 
 // 6
 
-for(var i =0; i< people.length; i++){
+for(let i =0; i< people.length; i++){
     if(i > 1){
         break;
     }
@@ -45,11 +45,11 @@ people.indexOf("Foo");
 
 // 10
 
-var people = ["Greg", "Mary", "Devon", "James"];
+people = ["Greg", "Mary", "Devon", "James"];
 
 people.splice(2,1,"Elizabeth", "Artie");
 
 // 11
 
-var withBob = people.concat("Bob");
+let withBob = people.concat("Bob");
 
